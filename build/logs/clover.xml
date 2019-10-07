@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1570461934">
+  <project timestamp="1570461934">
+    <package name="Rizkyarlin\ChuckNorrisJokes">
+      <file name="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/src/JokeFactory.php">
+        <class name="Rizkyarlin\ChuckNorrisJokes\JokeFactory" namespace="Rizkyarlin\ChuckNorrisJokes">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="15" type="stmt" count="2"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="18" type="stmt" count="2"/>
+        <line num="20" type="method" name="getRandomJoke" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <metrics loc="22" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+      </file>
+    </package>
+    <metrics files="1" loc="22" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+  </project>
+</coverage>

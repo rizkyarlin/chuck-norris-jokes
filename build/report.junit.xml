@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="ChuckNorris Test Suite" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.009597">
-    <testsuite name="Rizkyarlin\ChuckNorrisJokes\Tests\JokeFactoryTest" file="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/tests/JokeFactoryTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.009597">
-      <testcase name="it_returns_a_random_joke" class="Rizkyarlin\ChuckNorrisJokes\Tests\JokeFactoryTest" classname="Rizkyarlin.ChuckNorrisJokes.Tests.JokeFactoryTest" file="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/tests/JokeFactoryTest.php" line="12" assertions="1" time="0.008830"/>
-      <testcase name="it_returns_a_predefined_joke" class="Rizkyarlin\ChuckNorrisJokes\Tests\JokeFactoryTest" classname="Rizkyarlin.ChuckNorrisJokes.Tests.JokeFactoryTest" file="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/tests/JokeFactoryTest.php" line="25" assertions="1" time="0.000767"/>
+  <testsuite name="ChuckNorris Test Suite" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.010500">
+    <testsuite name="Rizkyarlin\ChuckNorrisJokes\Tests\JokeFactoryTest" file="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/tests/JokeFactoryTest.php" tests="2" assertions="2" errors="0" failures="0" skipped="0" time="0.010500">
+      <testcase name="it_returns_a_random_joke" class="Rizkyarlin\ChuckNorrisJokes\Tests\JokeFactoryTest" classname="Rizkyarlin.ChuckNorrisJokes.Tests.JokeFactoryTest" file="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/tests/JokeFactoryTest.php" line="12" assertions="1" time="0.007199"/>
+      <testcase name="it_returns_a_predefined_joke" class="Rizkyarlin\ChuckNorrisJokes\Tests\JokeFactoryTest" classname="Rizkyarlin.ChuckNorrisJokes.Tests.JokeFactoryTest" file="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/tests/JokeFactoryTest.php" line="25" assertions="1" time="0.003301"/>
     </testsuite>
   </testsuite>
 </testsuites>
