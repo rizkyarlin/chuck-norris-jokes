@@ -1,0 +1,13 @@
+{
+    "name": "rizkyarlin/chuck-norris-jokes",
+    "description": "Learning from https://phppackagedevelopment.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Rizky Eka Arlin",
+            "email": "rizkhy45@gmail.com"
+        }
+    ],
+    "require": {}
+}
