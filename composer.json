@@ -14,5 +14,13 @@
         "psr-4": {
             "Rizkyarlin\\ChuckNorrisJokes\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rizkyarlin\\ChuckNorrisJokes\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
     }
 }
