@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Rizkyarlin\ChuckNorrisJokes\Tests;
 
 use PHPUnit\Framework\TestCase;
@@ -12,13 +11,12 @@ class JokeFactoryTest extends TestCase
     public function it_returns_a_random_joke()
     {
         $jokes = new JokeFactory([
-            'This is a joke'
+            'This is a joke',
         ]);
 
         $joke = $jokes->getRandomJoke();
 
         $this->assertSame('This is a joke', $joke);
-
     }
 
     /** @test */
@@ -27,7 +25,7 @@ class JokeFactoryTest extends TestCase
         $chuckNorrisJokes = [
         'The First rule of Chuck Norris is: you do not talk about Chuck Norris.',
         'Chuck Norris counted to infinity... Twice.',
-        'When the Boogeyman goes to sleep at night he checks his closet for Chuck Norris.'
+        'When the Boogeyman goes to sleep at night he checks his closet for Chuck Norris.',
         ];
 
         $jokes = new JokeFactory();
@@ -35,6 +33,5 @@ class JokeFactoryTest extends TestCase
         $joke = $jokes->getRandomJoke();
 
         $this->assertContains($joke, $chuckNorrisJokes);
-
     }
 }
