@@ -1,11 +1,14 @@
 <?php
+
 namespace Mpociot\ChuckNorrisJokes\Tests;
+
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 use GuzzleHttp\Handler\MockHandler;
 use Rizkyarlin\ChuckNorrisJokes\JokeFactory;
+
 class JokeFactoryTest extends TestCase
 {
     /** @test */
