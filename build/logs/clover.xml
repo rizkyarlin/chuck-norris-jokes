@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1570461934">
-  <project timestamp="1570461934">
+<coverage generated="1570812729">
+  <project timestamp="1570812729">
     <package name="Rizkyarlin\ChuckNorrisJokes">
       <file name="/Users/rizkyarlin/projects/laravel/chuck-norris-jokes/src/JokeFactory.php">
         <class name="Rizkyarlin\ChuckNorrisJokes\JokeFactory" namespace="Rizkyarlin\ChuckNorrisJokes">
-          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
         </class>
-        <line num="13" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="2"/>
-        <line num="15" type="stmt" count="2"/>
-        <line num="16" type="stmt" count="1"/>
-        <line num="18" type="stmt" count="2"/>
-        <line num="20" type="method" name="getRandomJoke" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="21" type="stmt" count="2"/>
-        <metrics loc="22" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+        <line num="12" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="17" type="method" name="getRandomJoke" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="19" type="stmt" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <metrics loc="25" ncloc="25" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
       </file>
     </package>
-    <metrics files="1" loc="22" ncloc="22" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="4" elements="6" coveredelements="6"/>
+    <metrics files="1" loc="25" ncloc="25" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
   </project>
 </coverage>
